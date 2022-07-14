@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/top_bar_main"
+        layout="@layout/top_bar" />
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="@dimen/about_fragment_image_logo_width"
+        android:layout_height="@dimen/about_fragment_image_logo_height"
+        android:layout_below="@id/top_bar_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/about_fragment_image_logo_margin_top"
+        android:src="@mipmap/ic_logo" />
+
+    <TextView
+        android:id="@+id/textview_about_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/about_fragment_textview_logo_top"
+        android:text="@string/about_logo"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_huge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textview_about_logo"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_fragment_rl_version_height"
+            android:layout_marginTop="@dimen/about_fragment_rl_version_margin_top">
+
+            <TextView
+                android:id="@+id/textview_about_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/about_fragment_rl_textview_version_name_margin_left"
+                android:layout_toStartOf="@+id/textview_about_version_number"
+                android:text="@string/about_version"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_big" />
+
+            <TextView
+                android:id="@+id/textview_about_version_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/about_fragment_rl_textview_version_number_margin_right"
+                android:text="@string/about_version_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_big" />
+
+        </RelativeLayout>
+        <!--重新画一条线-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_fragment_rl_update_version_view_horizon_height"
+            android:layout_marginStart="@dimen/about_fragment_rl_update_version_view_horizon_margin_left"
+            android:layout_marginEnd="@dimen/about_fragment_rl_update_version_view_horizon_margin_right"
+            android:background="@android:color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_fragment_rl_update_version_height">
+
+            <Button
+                android:id="@+id/btn_about_check_version"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_toStartOf="@+id/imageview_about_check_version"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/about_fragment_rl_update_version_button_text_padding"
+                android:text="@string/about_check_update"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_big" />
+
+            <ImageView
+                android:id="@+id/imageview_about_check_version"
+                android:layout_width="@dimen/about_fragment_rl_update_version_imageview_width"
+                android:layout_height="@dimen/about_fragment_rl_update_version_imageview_height"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/about_fragment_rl_update_version_imageview_margin_right"
+                android:src="@mipmap/arrow_right" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/about_fragment_rl_update_version_view_horizon_height"
+            android:layout_marginStart="@dimen/about_fragment_rl_update_version_view_horizon_margin_left"
+            android:layout_marginEnd="@dimen/about_fragment_rl_update_version_view_horizon_margin_right"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

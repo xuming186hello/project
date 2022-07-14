@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\bak\\sx\\src\\2022\\xiexuming\\07_app_development\\MyProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\GGZ\\.gradle\\caches\\transforms-3\\cc228208a118abab8e3626daa1d5d918\\transformed\\appcompat-1.3.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\GGZ\\.gradle\\caches\\transforms-3\\edaa7ac56f2163af02c76e66f50e1c8c\\transformed\\car-ui-lib-2.0.0\\res\\values-port\\values.xml",
+                    "from": {
+                        "startLines": "4,7,8",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "212,426,491",
+                        "endColumns": "59,64,62",
+                        "endOffsets": "271,490,553"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "111,175,244",
+                        "endColumns": "63,68,66",
+                        "endOffsets": "170,239,306"
+                    }
+                }
+            ]
+        }
+    ]
+}

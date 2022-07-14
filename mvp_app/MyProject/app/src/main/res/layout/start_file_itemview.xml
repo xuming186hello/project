@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/start_activity_item_rl_height"
+    android:minHeight="@dimen/start_activity_item_rl_height">
+
+    <ImageView
+        android:id="@+id/imageview_file"
+        android:layout_width="@dimen/start_activity_item_imageview_file_width"
+        android:layout_height="@dimen/start_activity_item_imageview_file_height"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/start_activity_item_imageview_file_margin_start"
+        android:src="@mipmap/ic_file" />
+
+    <TextView
+        android:id="@+id/textView_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/start_activity_item_textview_file_margin_start"
+        android:layout_toEndOf="@+id/imageview_file"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:layout_width="@dimen/start_activity_item_imageview_arrow_width"
+        android:layout_height="@dimen/start_activity_item_imageview_arrow_height"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/start_activity_item_imageview_arrow_margin_end"
+        android:src="@mipmap/arrow_right" />
+</RelativeLayout>

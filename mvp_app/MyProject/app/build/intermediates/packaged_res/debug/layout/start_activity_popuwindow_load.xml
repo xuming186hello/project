@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="@dimen/start_activity_load_rl_width"
+        android:layout_height="@dimen/start_activity_load_rl_height"
+        android:background="@drawable/loading_shape">
+
+        <ProgressBar
+            android:id="@+id/progress_bar_wait"
+            android:layout_width="@dimen/start_activity_load_progress_bar_width"
+            android:layout_height="@dimen/start_activity_load_progress_bar_height"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/start_activity_load_progress_bar_margin_top"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@anim/anim_progressbar"
+            android:indeterminateOnly="true" />
+
+        <TextView
+            android:id="@+id/textview_start_popu_window_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress_bar_wait"
+            android:layout_alignStart="@+id/progress_bar_wait"
+            android:layout_marginTop="@dimen/start_activity_load_textview_margin_top"
+            android:text="@string/start_wait"
+            android:textColor="@color/text_while"
+            android:textSize="@dimen/text_size_big" />
+    </RelativeLayout>
+</RelativeLayout>
