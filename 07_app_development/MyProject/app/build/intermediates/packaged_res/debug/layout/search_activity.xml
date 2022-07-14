@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".search.SearchActivity">
+
+    <include
+        android:id="@+id/top_bar_search_history"
+        layout="@layout/top_bar_search" />
+
+    <ListView
+        android:id="@+id/listview_search_fuzzy_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/ll_search_history_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textview_search_ll_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/search_activity_textview_history_title_margin_left"
+                android:layout_marginTop="@dimen/search_activity_textview_history_title_margin_top"
+                android:text="@string/search_history"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_large" />
+
+            <ImageView
+                android:id="@+id/imageview_search_history_del_all"
+                android:layout_width="@dimen/search_activity_imageview_delete_width"
+                android:layout_height="@dimen/search_activity_imageview_delete_height"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/search_activity_imageview_delete_margin_top"
+                android:layout_marginEnd="@dimen/search_activity_imageview_delete_margin_right"
+                android:background="@mipmap/ic_delete" />
+
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/gridView_search_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/search_activity_gridview_margin_left"
+            android:layout_marginTop="@dimen/search_activity_gridview_margin_top"
+            android:layout_marginEnd="@dimen/search_activity_gridview_margin_right"
+            android:columnWidth="@dimen/search_activity_gridview_columns_width"
+            android:horizontalSpacing="@dimen/search_activity_gridview_horizon_spacing"
+            android:minHeight="@dimen/search_activity_gridview_column_height"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/search_activity_gridview_vertical_spacing" />
+    </LinearLayout>
+
+</LinearLayout>

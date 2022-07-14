@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    common-->
+    <dimen name="text_size">10sp</dimen>
+    <dimen name="text_size_big">12sp</dimen>
+    <dimen name="text_size_large">14sp</dimen>
+    <dimen name="text_size_huge">17sp</dimen>
+
+    <dimen name="top_bar_height">48dp</dimen>
+    <dimen name="top_bar_image_back_height">19dp</dimen>
+    <dimen name="top_bar_image_back_width">15dp</dimen>
+    <dimen name="top_bar_image_back_margin_Left">13dp</dimen>
+
+    <dimen name="top_bar_search_height">48dp</dimen>
+    <dimen name="top_bar_search_line_layout_margin_start">8dp</dimen>
+    <dimen name="top_bar_search_line_layout_height">32dp</dimen>
+    <dimen name="top_bar_search_image_fav_width">23dp</dimen>
+    <dimen name="top_bar_search_image_fav_height">21dp</dimen>
+    <dimen name="top_bar_search_image_fav_margin_right">18dp</dimen>
+    <dimen name="top_bar_search_image_fav_margin_left">15dp</dimen>
+    <dimen name="top_bar_search_image_search_width">21dp</dimen>
+    <dimen name="top_bar_search_image_search_height">21dp</dimen>
+    <dimen name="top_bar_search_image_search_margin_right">7dp</dimen>
+    <dimen name="top_bar_search_image_search_margin_vertical">5dp</dimen>
+    <dimen name="top_bar_search_image_cancel_width">70dp</dimen>
+    <dimen name="top_bar_search_image_cancel_height">29dp</dimen>
+    <dimen name="top_bar_search_image_cancel_margin_left">10dp</dimen>
+    <dimen name="top_bar_search_image_cancel_margin_right">8dp</dimen>
+
+    <!--    start-->
+    <dimen name="start_activity_item_rl_height">58dp</dimen>
+    <dimen name="start_activity_item_imageview_file_height">22dp</dimen>
+    <dimen name="start_activity_item_imageview_file_width">22dp</dimen>
+    <dimen name="start_activity_item_imageview_file_margin_start">23dp</dimen>
+    <dimen name="start_activity_item_textview_file_margin_start">9dp</dimen>
+    <dimen name="start_activity_item_imageview_arrow_margin_end">25dp</dimen>
+    <dimen name="start_activity_item_imageview_arrow_height">18dp</dimen>
+    <dimen name="start_activity_item_imageview_arrow_width">10dp</dimen>
+
+    <dimen name="start_activity_load_rl_width">186dp</dimen>
+    <dimen name="start_activity_load_rl_height">119dp</dimen>
+    <dimen name="start_activity_load_progress_bar_height">48dp</dimen>
+    <dimen name="start_activity_load_progress_bar_width">48dp</dimen>
+    <dimen name="start_activity_load_progress_bar_margin_top">17dp</dimen>
+    <dimen name="start_activity_load_textview_margin_top">16dp</dimen>
+    <!--    main-->
+    <dimen name="navigation_bar_liner_layout_height">56dp</dimen>
+    <dimen name="navigation_bar_image_view_height">26dp</dimen>
+    <dimen name="navigation_bar_image_view_width">26dp</dimen>
+    <dimen name="navigation_bar_image_view_margin_top">7dp</dimen>
+    <dimen name="navigation_bar_textview_text_height">11dp</dimen>
+    <dimen name="navigation_bar_textview_margin_top">5dp</dimen>
+    <dimen name="navigation_bar_textview_margin_bottom">6dp</dimen>
+
+    <!--    about-->
+    <dimen name="about_fragment_image_logo_width">208dp</dimen>
+    <dimen name="about_fragment_image_logo_height">208dp</dimen>
+    <dimen name="about_fragment_image_logo_margin_top">20dp</dimen>
+    <dimen name="about_fragment_textview_logo_top">9dp</dimen>
+
+    <dimen name="about_fragment_listview_margin_top">32dp</dimen>
+    <dimen name="about_fragment_rl_version_margin_top">52dp</dimen>
+    <dimen name="about_fragment_listview_margin_horizon">25dp</dimen>
+
+    <dimen name="about_fragment_listview_height">56dp</dimen>
+    <dimen name="about_fragment_rl_update_version_imageview_width">9dp</dimen>
+    <dimen name="about_fragment_rl_update_version_imageview_height">18dp</dimen>
+    <dimen name="about_fragment_rl_update_version_imageview_margin_right">33dp</dimen>
+    <dimen name="about_fragment_rl_update_version_view_horizon_height">2dp</dimen>
+    <dimen name="about_fragment_rl_update_version_view_horizon_margin_left">25dp</dimen>
+    <dimen name="about_fragment_rl_update_version_view_horizon_margin_right">25dp</dimen>
+    <dimen name="about_fragment_rl_update_version_button_text_padding">21dp</dimen>
+
+    <!--search-->
+    <dimen name="search_activity_textview_history_title_margin_left">20dp</dimen>
+    <dimen name="search_activity_textview_history_title_margin_top">20dp</dimen>
+    <dimen name="search_activity_imageview_delete_width">17dp</dimen>
+    <dimen name="search_activity_imageview_delete_height">22dp</dimen>
+    <dimen name="search_activity_imageview_delete_margin_top">19dp</dimen>
+    <dimen name="search_activity_imageview_delete_margin_right">14dp</dimen>
+
+    <dimen name="search_activity_gridview_margin_right">26dp</dimen>
+    <dimen name="search_activity_gridview_margin_left">20dp</dimen>
+    <dimen name="search_activity_gridview_columns_width">103dp</dimen>
+    <dimen name="search_activity_gridview_horizon_spacing">8dp</dimen>
+    <dimen name="search_activity_gridview_vertical_spacing">16dp</dimen>
+    <dimen name="search_activity_gridview_margin_top">20dp</dimen>
+    <dimen name="search_activity_gridview_column_height">29dp</dimen>
+    <dimen name="search_activity_item_textview_height">29dp</dimen>
+    <dimen name="search_activity_item_textview_width">90dp</dimen>
+    <dimen name="search_activity_item_imageview_width">9dp</dimen>
+    <dimen name="search_activity_item_imageview_height">11dp</dimen>
+
+    <dimen name="search_activity_fuzzy_query_item_height">30dp</dimen>
+    <dimen name="search_activity_fuzzy_query_item_textview_padding_start">16dp</dimen>
+
+    <!--    favorite-->
+    <dimen name="favorite_activity_favorite_GridView_margin_top">7dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_margin_right">7dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_column_width">118dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_min_height">107dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_number_column">3</dimen>
+    <dimen name="favorite_activity_favorite_GridView_vertical_spacing">17dp</dimen>
+
+    <dimen name="favorite_activity_favorite_GridView_item_image_favorite_height">72dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_item_image_favorite_width">113dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_item_image_favorite_margin_start">7dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_item_channel_number_margin_start">16dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_item_margin_top">4dp</dimen>
+    <dimen name="favorite_activity_favorite_GridView_item_textview_channel_name_margin_start">10dp</dimen>
+
+    <!--    live-->
+    <dimen name="live_fragment_listview_margin_left">15dp</dimen>
+
+    <dimen name="live_fragment_item_textview_channel_number_margin_top">8dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_title_margin_top">8dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_title_margin_left">10dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_start_margin_top">8dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_start_margin_bottom">13dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_peg_margin_top">8dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_peg_margin_bottom">13dp</dimen>
+    <dimen name="live_fragment_item_textview_channel_peg_margin_left">13dp</dimen>
+
+    <dimen name="live_fragment_item_imageview_add_fav_margin_right">18dp</dimen>
+    <dimen name="live_fragment_item_imageview_add_fav_width">21dp</dimen>
+    <dimen name="live_fragment_item_imageview_add_fav_height">21dp</dimen>
+
+</resources>

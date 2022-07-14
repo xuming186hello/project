@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tosmart.xiexuming.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:5:22-77
+12
+13    <queries>
+13-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:26:5-31:15
+14        <provider
+14-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:27:9-30:67
+15            android:name="com.android.car.ui.plugin.PluginNameProvider"
+15-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:28:13-72
+16            android:authorities="com.android.car.ui.plugin" />
+16-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:29:13-60
+17    </queries>
+18
+19    <application
+19-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:6:5-33:19
+20        android:name="com.tosmart.xiexuming.myapplication.MyApplication"
+20-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:7:9-38
+21        android:allowBackup="true"
+21-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] C:\Users\GGZ\.gradle\caches\transforms-3\b1fe9740f6c86f0b7649a763c3bf2b85\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.MyApplication" >
+29-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:13:9-51
+30        <activity
+30-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.tosmart.xiexuming.myapplication.search.SearchActivity"
+31-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:16:13-50
+32            android:exported="false" />
+32-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.tosmart.xiexuming.myapplication.favorite.FavoriteActivity"
+34-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:19:13-54
+35            android:exported="false" />
+35-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.tosmart.xiexuming.myapplication.MainMenuActivity"
+37-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:22:13-45
+38            android:exported="false" />
+38-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:24:9-32:20
+40            android:name="com.tosmart.xiexuming.myapplication.start.StartActivity"
+40-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:25:13-48
+41            android:exported="true" >
+41-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:26:13-36
+42            <intent-filter>
+42-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:27:13-31:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:28:17-69
+43-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:30:17-77
+45-->F:\bak\sx\src\2022\xiexuming\07_app_development\MyProject\app\src\main\AndroidManifest.xml:30:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:34:9-39:71
+50            android:name="com.android.car.ui.core.CarUiInstaller"
+50-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:35:13-66
+51            android:authorities="com.tosmart.xiexuming.myapplication.CarUiInstaller"
+51-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:36:13-66
+52            android:directBootAware="true"
+52-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:37:13-43
+53            android:exported="false"
+53-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:38:13-37
+54            android:process="@string/car_ui_installer_process_name" />
+54-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:39:13-68
+55        <provider
+55-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:40:9-45:79
+56            android:name="com.android.car.ui.core.SearchResultsProvider"
+56-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:41:13-73
+57            android:authorities="com.tosmart.xiexuming.myapplication.SearchResultsProvider"
+57-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:42:13-73
+58            android:exported="true"
+58-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:43:13-36
+59            android:process="@string/car_ui_installer_process_name"
+59-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:44:13-68
+60            android:readPermission="com.android.car.ui.READ_SEARCH_RESULTS" />
+60-->[com.android.car.ui:car-ui-lib:2.0.0] C:\Users\GGZ\.gradle\caches\transforms-3\edaa7ac56f2163af02c76e66f50e1c8c\transformed\car-ui-lib-2.0.0\AndroidManifest.xml:45:13-76
+61    </application>
+62
+63</manifest>

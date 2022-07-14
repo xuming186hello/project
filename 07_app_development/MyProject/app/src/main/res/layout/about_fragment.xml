@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main_about_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/top_bar_main"
+                layout="@layout/top_bar" />
+
+            <ImageView
+                android:id="@+id/image_logo"
+                android:layout_width="@dimen/about_fragment_image_logo_width"
+                android:layout_height="@dimen/about_fragment_image_logo_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/about_fragment_image_logo_margin_top"
+                android:src="@mipmap/ic_logo" />
+
+            <TextView
+                android:id="@+id/textview_about_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/about_fragment_textview_logo_top"
+                android:gravity="center_horizontal"
+                android:text="@string/about_logo"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_huge" />
+
+            <ListView
+                android:id="@+id/listview_about_information"
+                android:layout_width="wrap_content"
+                android:layout_height="269dp"
+                android:layout_marginHorizontal="@dimen/about_fragment_listview_margin_horizon"
+                android:layout_marginTop="@dimen/about_fragment_listview_margin_top"
+                android:scrollbars="none"
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

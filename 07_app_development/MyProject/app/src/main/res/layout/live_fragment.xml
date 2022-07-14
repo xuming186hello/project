@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configChanges="screenSize|orientation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/top_bar_search_live"
+        layout="@layout/top_bar_search" />
+
+    <ListView
+        android:layout_marginStart="@dimen/live_fragment_listview_margin_left"
+        android:id="@+id/listView_channel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

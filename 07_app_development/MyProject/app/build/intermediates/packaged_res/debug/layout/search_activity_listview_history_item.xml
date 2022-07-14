@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textview_search_history"
+        android:layout_width="@dimen/search_activity_item_textview_width"
+        android:layout_height="@dimen/search_activity_item_textview_height"
+        android:background="@drawable/search_history_textview"
+        android:gravity="center"
+        android:textColor="@color/search_history"
+        android:textSize="@dimen/text_size_big" />
+
+    <ImageView
+        android:id="@+id/imageview_search_history_del"
+        android:layout_width="@dimen/search_activity_item_imageview_width"
+        android:layout_height="@dimen/search_activity_item_imageview_height"
+        android:layout_alignEnd="@+id/textview_search_history"
+        android:background="@drawable/del"
+        android:visibility="invisible" />
+</RelativeLayout>
