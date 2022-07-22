@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".favorite.FavoriteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.newpaserapp.weight.TopBar
+            android:id="@+id/topBar_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:icon_back_show="true"
+            app:title_text="@string/favorite_title" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_favourite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/favorite_activity_favorite_GridView_margin_top"
+            android:layout_marginEnd="@dimen/favorite_activity_favorite_GridView_margin_right"
+            android:columnWidth="@dimen/favorite_activity_favorite_GridView_column_width"
+            android:minHeight="@dimen/favorite_activity_favorite_GridView_min_height"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/favorite_activity_favorite_GridView_vertical_spacing" />
+    </LinearLayout>
+</layout>

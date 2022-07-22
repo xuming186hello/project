@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">FTV</string>
+    <!--start-->
+    <string name="start_select_file" translatable="false">Select TS File</string>
+    <string name="start_wait" translatable="false">Waiting</string>
+    <string name="start_title">select Ts file"</string>
+    <!--main-->
+    <string name="main_edit_text_search_tip" translatable="false">Please input Channel Num.</string>
+    <string name="main_button_live" translatable="false">Live</string>
+    <!--live-->
+    <string name="about_title" translatable="false">About</string>
+    <string name="about_logo" translatable="false">F.TV</string>
+    <string name="about_version" translatable="false">About APP</string>
+    <string name="about_version_number" translatable="false">V1.3.0</string>
+    <string name="about_check_update" translatable="false">Check Update</string>
+    <!--search-->
+    <string name="search_history" translatable="false">Search History</string>
+    <string name="search_button_cancel" translatable="false">Cancel</string>
+    <!--favorite-->
+    <string name="favorite_title" translatable="false">Favorite</string>
+
+    <string name="live_channel_time">9:00–10:00</string>
+    <string name="live_channel_descriptor">NO PEG</string>
+</resources>

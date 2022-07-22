@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:configChanges="screenSize|orientation"
+        android:orientation="vertical">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpage_main"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navigation_bar_liner_layout_height"
+            android:background="@android:color/black"
+            android:orientation="horizontal">
+
+            <com.example.newpaserapp.weight.BottomIcon
+                android:id="@+id/bottomIcon_Left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:icon_image="@drawable/main_menu_live_selector_live_button"
+                app:icon_text="@string/main_button_live" />
+
+            <com.example.newpaserapp.weight.BottomIcon
+                android:id="@+id/bottomIcon_Right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:icon_image="@drawable/main_menu_about_selector_about_button"
+                app:icon_text="@string/about_title" />
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="title_text" format="string|reference"></attr>
+        <attr name="icon_back_show" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="BottomIcon">
+        <attr name="icon_text" format="string|reference"></attr>
+        <attr name="icon_image" format="integer"></attr>
+    </declare-styleable>
+</resources>

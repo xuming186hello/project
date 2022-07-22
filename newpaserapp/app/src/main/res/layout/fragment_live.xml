@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configChanges="screenSize|orientation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_bar_search_height"
+            android:background="@android:color/holo_red_dark"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/top_bar_search_line_layout_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/top_bar_search_line_layout_margin_start"
+                android:layout_weight="1"
+                android:background="@drawable/top_bar_search_edit_view_shape"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_search"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/top_bar_search_edit_view_shape"
+                    android:gravity="center_vertical"
+                    android:hint="@string/main_edit_text_search_tip"
+                    android:textAlignment="gravity" />
+
+                <ImageView
+                    android:id="@+id/imageview_search"
+                    android:layout_width="@dimen/top_bar_search_image_search_width"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="@dimen/top_bar_search_image_search_margin_vertical"
+                    android:layout_marginEnd="@dimen/top_bar_search_image_search_margin_right"
+                    android:background="@mipmap/ic_search" />
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/image_favorite"
+                android:layout_width="@dimen/top_bar_search_image_fav_width"
+                android:layout_height="@dimen/top_bar_search_image_fav_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/top_bar_search_image_fav_margin_left"
+                android:layout_marginEnd="@dimen/top_bar_search_image_fav_margin_right"
+                android:background="@mipmap/ic_fav_list"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_search_cancel"
+                android:layout_width="@dimen/top_bar_search_image_cancel_width"
+                android:layout_height="@dimen/top_bar_search_image_cancel_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/top_bar_search_image_cancel_margin_left"
+                android:layout_marginEnd="@dimen/top_bar_search_image_cancel_margin_right"
+                android:background="@mipmap/button_cancel"
+                android:text="@string/search_button_cancel"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_channel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/live_fragment_listview_margin_left" />
+    </LinearLayout>
+</layout>
